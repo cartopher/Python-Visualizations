@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # import libaries
 
 # seaborn is the visual theme
@@ -15,10 +9,10 @@ import matplotlib.pyplot as plt
 # graph color perferences
 from matplotlib.colors import ListedColormap
 
-# set the graph font
+# set font
 plt.rcParams["font.family"] = "Verdana"
 
-# set the graph parameters
+# set the heatmap parameters
 w = 30
 h = 40
 d = 100
@@ -91,7 +85,7 @@ s = sns.heatmap(data,
                 center=0, 
                 annot_kws={"size":45, "color":'black'})
 
-# manipulate the graph 
+# manipulate the table
 # adding for masking the values 0
 for text in s.texts:
     if text.get_text() == '0':
@@ -141,16 +135,3 @@ plt.savefig("Bamberger Soil Results - Wildlife Preserve.png")
 
 # https://seaborn.pydata.org/generated/seaborn.heatmap.html
 # https://matplotlib.org/stable/gallery/color/named_colors.html
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
