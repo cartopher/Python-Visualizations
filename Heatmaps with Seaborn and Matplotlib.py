@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 # import libaries
 
 # seaborn is the visual theme
@@ -12,10 +6,10 @@ import seaborn as sns
 # matplotlib plots the data and sets the visual perferences 
 import matplotlib.pyplot as plt
 
-# set the graph font
+# set font
 plt.rcParams["font.family"] = "serif"
 
-# set the graph parameters
+# set the heatmap parameters
 w = 15
 h = 10
 d = 70
