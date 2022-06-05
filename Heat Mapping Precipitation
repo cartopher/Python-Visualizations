@@ -1,21 +1,13 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 # import libaries
-
-# seaborn is the visual theme
 import seaborn as sns
 
 # matplotlib plots the data and sets the visual perferences 
 import matplotlib.pyplot as plt
 
-# set the graph font
+# set font
 plt.rcParams["font.family"] = "serif"
 
-# set the graph parameters
+# set the heat map parameters
 w = 10
 h = 3
 d = 70
@@ -60,16 +52,3 @@ plt.ylabel('Monitoring Stations \n''(within 20 mile buffer zone)', fontsize=12)
 
 # save results to C:\Users
 plt.savefig("Birdwell & Clark Average Precipiation Heat Map.png")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
